@@ -1,0 +1,57 @@
+{
+  "name": "@pupbot/core",
+  "version": "1.0.22",
+  "description": "QQ机器人框架，基于 oicq v2",
+  "homepage": "https://pupbot.cn",
+  "main": "lib/index.js",
+  "keywords": [
+    "oicq2",
+    "pupbot"
+  ],
+  "author": "dogxi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run clean && tsc && concurrently \"tsc -w\" \"tsc-alias -w\"",
+    "build": "npm run clean && tsc && tsc-alias",
+    "release": "npm run build && npm publish --access public",
+    "lint": "eslint --ext .js,.json,.ts, .",
+    "lint:fix": "eslint --fix --ext .js,.json,.ts, .",
+    "clean": "rimraf lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">= v14"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "clipboardy": "^2",
+    "dayjs": "^1.11.6",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^10.1.0",
+    "log4js": "^6.7.0",
+    "minimist": "^1.2.7",
+    "node-cron": "^3.0.2",
+    "npm-check-updates": "^16.5.0",
+    "oicq": "^2.3.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.10",
+    "@types/fs-extra": "^9.0.13",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.11.9",
+    "@types/node-cron": "^3.0.6",
+    "@types/prompts": "^2.4.1",
+    "concurrently": "^7.5.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-viki-ts": "^0.1.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "tsc-alias": "^1.7.1",
+    "typescript": "^4.9.3"
+  }
+}
