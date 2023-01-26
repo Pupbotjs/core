@@ -3,8 +3,7 @@
     <img width="160" src="https://www.pupbot.cn/logo.png" alt="logo" style="">
   </a>
   <h1 id="pupbot"><a href="https://pupbot.cn/" target="_blank">PupBot</a></h1>
-
-[![Codecov](https://img.shields.io/codecov/c/github/Pupbotjs/core?style=flat-square)](https://codecov.io/gh/Pupbotjs/core)
+  
 [![downloads](https://img.shields.io/npm/dm/@pupbot/core?style=flat-square)](https://www.npmjs.com/package/@pupbot/core)
 [![npm](https://img.shields.io/npm/v/@pupbot/core?style=flat-square)](https://www.npmjs.com/package/@pupbot/core)
 [![GitHub](https://img.shields.io/github/license/Pupbotjs/core?style=flat-square)](https://github.com/Pupbotjs/core/blob/master/LICENSE)
