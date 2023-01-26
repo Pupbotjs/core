@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://pupbot.cn/" target="_blank">
-    <img width="160" src="https://pupbot.cn/logo.png" alt="logo">
+    <img width="160" src="https://www.pupbot.cn/logo.png" alt="logo" style="">
   </a>
-  <h1 id="koishi"><a href="https://pupbot.cn/" target="_blank">PupBot</a></h1>
+  <h1 id="pupbot"><a href="https://pupbot.cn/" target="_blank">PupBot</a></h1>
 
 [![Codecov](https://img.shields.io/codecov/c/github/Pupbotjs/core?style=flat-square)](https://codecov.io/gh/Pupbotjs/core)
 [![downloads](https://img.shields.io/npm/dm/@pupbot/core?style=flat-square)](https://www.npmjs.com/package/@pupbot/core)
