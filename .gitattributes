@@ -1,0 +1,4 @@
+*.yml linguist-language=JavaScript
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.ts linguist-language=TypeScript
