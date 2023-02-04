@@ -1,6 +1,6 @@
 {
   "name": "@pupbot/core",
-  "version": "1.0.22",
+  "version": "1.0.26",
   "description": "QQ机器人框架，基于 oicq v2",
   "homepage": "https://pupbot.cn",
   "main": "lib/index.js",
