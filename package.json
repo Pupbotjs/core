@@ -1,11 +1,12 @@
 {
   "name": "@pupbot/core",
-  "version": "1.0.26",
-  "description": "QQ机器人框架，基于 oicq v2",
+  "version": "1.0.30",
+  "description": "QQ机器人框架，基于 icqq v0.3",
   "homepage": "https://pupbot.cn",
   "main": "lib/index.js",
   "keywords": [
     "oicq2",
+    "icqq",
     "pupbot"
   ],
   "author": "dogxi",
@@ -34,7 +35,7 @@
     "minimist": "^1.2.7",
     "node-cron": "^3.0.2",
     "npm-check-updates": "^16.5.0",
-    "oicq": "^2.3.1",
+    "icqq": "^0.3.1",
     "prompts": "^2.4.2"
   },
   "devDependencies": {
