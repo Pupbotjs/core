@@ -35,7 +35,7 @@
     "minimist": "^1.2.7",
     "node-cron": "^3.0.2",
     "npm-check-updates": "^16.5.0",
-    "icqq": "^0.3.1",
+    "icqq": "^0.4.11",
     "prompts": "^2.4.2"
   },
   "devDependencies": {
